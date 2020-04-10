@@ -47,7 +47,7 @@
             <div class="col-sm-4">
               <div class="text-right">
                 <button type="button"  onclick="location.href='data-accesses';" class="btn btn-warning btn-lg">
-                  <i class="fas fa-info-circle"></i> <@message "data-accesses"/>
+                  <@message "data-access"/> <i class="fas fa-arrow-circle-right"></i>
                 </button>
               </div>
             </div><!-- /.col -->
