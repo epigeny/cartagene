@@ -36,6 +36,24 @@
     <!-- Main content -->
     <div class="content">
       <div class="container">
+
+        <div class="callout callout-info">
+          <div class="row">
+            <div class="col-sm-8">
+              <p class="text-justify">
+                <@message "data-access-process-portal-callout"/>
+              </p>
+            </div><!-- /.col -->
+            <div class="col-sm-4">
+              <div class="text-right">
+                <button type="button"  onclick="location.href='data-accesses';" class="btn btn-warning btn-lg">
+                  <i class="fas fa-info-circle"></i> <@message "data-accesses"/>
+                </button>
+              </div>
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+        </div>
+
         <div class="row">
           <div class="col-sm-6 col-lg-3">
             <div class="card card-primary card-outline">
