@@ -1,5 +1,5 @@
 <#macro leftmenus>
-  <li class="nav-item">
+  <li id="homeMenu" class="nav-item">
     <a href="${config.portalUrl}" class="nav-link"><@message "home"/></a>
   </li>
   <li id="dataAccessMenu" class="nav-item ml-3">

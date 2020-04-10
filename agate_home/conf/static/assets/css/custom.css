@@ -1,3 +1,11 @@
-.layout-top-nav .wrapper .main-header .brand-image {
+.brand-image {
 	height: 50px !important;
+	max-height: 50px !important;
+}
+
+#homeMenu a, #appMenu a {
+	font-weight: bold;
+  color: #1b222f;
+  text-transform: uppercase;
+  font-size: 14px;
 }
