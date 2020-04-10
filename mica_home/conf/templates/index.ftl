@@ -49,7 +49,7 @@
               </div>
               <div class="card-footer">
                 <a href="data-access-process">
-                  <img src="https://cartagene.qc.ca/sites/default/files/styles/cartagene_medium/public/images/page/icon%201.png" width="300" height="170" alt="Access Request" typeof="foaf:Image" class="img-responsive">
+                  <img src="/assets/images/icon1.png" height="170" alt="<@message "access-request"/>" class="rounded mx-auto d-block">
 	        </a>
               </div>
             </div>
@@ -66,9 +66,9 @@
                 </p>
               </div>
               <div class="card-footer">
-                <button type="button"  onclick="location.href='data-access-process';" class="btn btn-info btn-lg">
-                  <i class="fas fa-info-circle"></i> <@message "data-access-process"/>
-                </button>
+                <a href="data-access-process">
+                  <img src="/assets/images/icon2.png" height="170" alt="<@message "data-catalogs"/>" class="rounded mx-auto d-block">
+                </a>
               </div>
             </div>
           </div>
@@ -84,9 +84,9 @@
                 </p>
               </div>
               <div class="card-footer">
-                <button type="button"  onclick="location.href='data-access-process';" class="btn btn-info btn-lg">
-                  <i class="fas fa-info-circle"></i> <@message "data-access-process"/>
-                </button>
+                <a href="data-access-process">
+                  <img src="/assets/images/icon3b.png" height="170" alt="<@message "documents-newsletters"/>" class="rounded mx-auto d-block">
+                </a>
               </div>
             </div>
           </div>
@@ -102,9 +102,9 @@
                 </p>
               </div>
               <div class="card-footer">
-                <button type="button"  onclick="location.href='data-access-process';" class="btn btn-info btn-lg">
-                  <i class="fas fa-info-circle"></i> <@message "data-access-process"/>
-                </button>
+                <a href="data-access-process">
+                  <img src="/assets/images/icon4.png" height="170" alt="<@message "projects-publications"/>" class="rounded mx-auto d-block">
+                </a>
               </div>
             </div>
           </div>
