@@ -1,3 +1,4 @@
-.layout-top-nav .wrapper .main-header .brand-image {
+.brand-image {
 	height: 50px !important;
+	max-height: 50px !important;
 }
