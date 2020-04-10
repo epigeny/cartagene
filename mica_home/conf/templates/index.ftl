@@ -66,7 +66,7 @@
                 </p>
               </div>
               <div class="card-footer">
-                <a href="data-access-process">
+                <a href="page/data-catalogs">
                   <img src="/assets/images/icon2.png" height="170" alt="<@message "data-catalogs"/>" class="rounded mx-auto d-block">
                 </a>
               </div>
@@ -84,7 +84,7 @@
                 </p>
               </div>
               <div class="card-footer">
-                <a href="data-access-process">
+                <a href="page/documents-newsletters">
                   <img src="/assets/images/icon3b.png" height="170" alt="<@message "documents-newsletters"/>" class="rounded mx-auto d-block">
                 </a>
               </div>
@@ -102,7 +102,7 @@
                 </p>
               </div>
               <div class="card-footer">
-                <a href="data-access-process">
+                <a href="page/projects-publications">
                   <img src="/assets/images/icon4.png" height="170" alt="<@message "projects-publications"/>" class="rounded mx-auto d-block">
                 </a>
               </div>
