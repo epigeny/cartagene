@@ -6,7 +6,16 @@
 }
 
 body {
-	font-family: 'Raleway';
+	font-family: "Raleway", "Source Sans Pro","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+	font-size: 14px;
+}
+
+footer {
+	font-size: 14px;
+}
+
+.brand-link {
+	font-size: 1.15rem;
 }
 
 .brand-image {
@@ -14,9 +23,20 @@ body {
 	max-height: 50px !important;
 }
 
+.brand-link .brand-image {
+	margin-top: -15px;
+}
+
+.layout-top-nav .main-header {
+	font-size: 1rem;
+}
+
+.main-header a {
+	font-size: 13px;
+}
+
 #homeMenu a, #appMenu a {
 	font-weight: bold;
 	color: #1b222f;
 	text-transform: uppercase;
-	font-size: 14px;
 }
