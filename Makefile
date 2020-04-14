@@ -1,3 +1,14 @@
+mica_home = /tmp/test-mica
+agate_home = /tmp/test-agate
+
+install: install-mica install-agate
+
+install-mica:
+	sudo cp -r mica_home/conf/* ${mica_home}/conf
+
+install-agate:
+	sudo cp -r agate_home/conf/* ${agate_home}/conf
+
 theme:
 	rm -rf mica_home/conf/static/assets/theme
 	mkdir -p mica_home/conf/static/assets/theme/plugins
