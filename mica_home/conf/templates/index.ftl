@@ -141,14 +141,5 @@
 
 <#include "libs/scripts.ftl">
 
-<script>
-  micajs.stats('studies', {}, function(stats) {
-    $('#network-hits').text(new Intl.NumberFormat().format(stats.networkResultDto.totalHits));
-    $('#study-hits').text(new Intl.NumberFormat().format(stats.studyResultDto.totalHits));
-    $('#dataset-hits').text(new Intl.NumberFormat().format(stats.datasetResultDto.totalHits));
-    $('#variable-hits').text(new Intl.NumberFormat().format(stats.variableResultDto.totalHits));
-  });
-</script>
-
 </body>
 </html>
