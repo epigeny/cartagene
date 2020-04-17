@@ -40,7 +40,7 @@
         <div class="callout callout-info">
           <div class="row">
             <div class="col-sm-8">
-              <p class="text-justify">
+              <p class="text-justify mt-3">
                 <@message "data-access-process-portal-callout"/>
               </p>
             </div><!-- /.col -->
