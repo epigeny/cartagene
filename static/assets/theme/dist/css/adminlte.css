@@ -10614,7 +10614,8 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
 }
 
 .layout-navbar-fixed .wrapper .content-wrapper {
-  margin-top: calc(5.5rem + 1px);
+  margin-top: calc(5.15rem + 1px);
+  /*$main-header-height;*/
 }
 
 .text-sm .layout-navbar-fixed .wrapper .main-header ~ .content-wrapper,
@@ -10757,7 +10758,8 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
     background-color: #ffffff;
   }
   .layout-sm-navbar-fixed .wrapper .content-wrapper {
-    margin-top: calc(5.5rem + 1px);
+    margin-top: calc(5.15rem + 1px);
+    /*$main-header-height;*/
   }
   .text-sm .layout-sm-navbar-fixed .wrapper .main-header ~ .content-wrapper,
   .layout-sm-navbar-fixed .wrapper .main-header.text-sm ~ .content-wrapper {
@@ -10892,7 +10894,8 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
     background-color: #ffffff;
   }
   .layout-md-navbar-fixed .wrapper .content-wrapper {
-    margin-top: calc(5.5rem + 1px);
+    margin-top: calc(5.15rem + 1px);
+    /*$main-header-height;*/
   }
   .text-sm .layout-md-navbar-fixed .wrapper .main-header ~ .content-wrapper,
   .layout-md-navbar-fixed .wrapper .main-header.text-sm ~ .content-wrapper {
@@ -11027,7 +11030,8 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
     background-color: #ffffff;
   }
   .layout-lg-navbar-fixed .wrapper .content-wrapper {
-    margin-top: calc(5.5rem + 1px);
+    margin-top: calc(5.15rem + 1px);
+    /*$main-header-height;*/
   }
   .text-sm .layout-lg-navbar-fixed .wrapper .main-header ~ .content-wrapper,
   .layout-lg-navbar-fixed .wrapper .main-header.text-sm ~ .content-wrapper {
@@ -11162,7 +11166,8 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
     background-color: #ffffff;
   }
   .layout-xl-navbar-fixed .wrapper .content-wrapper {
-    margin-top: calc(5.5rem + 1px);
+    margin-top: calc(5.15rem + 1px);
+    /*$main-header-height;*/
   }
   .text-sm .layout-xl-navbar-fixed .wrapper .main-header ~ .content-wrapper,
   .layout-xl-navbar-fixed .wrapper .main-header.text-sm ~ .content-wrapper {
@@ -11322,7 +11327,7 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
 .layout-top-nav .wrapper .main-header .brand-image {
   margin-top: -.5rem;
   margin-right: .2rem;
-  height: 33px;
+  height: 50px;
 }
 
 .layout-top-nav .wrapper .main-sidebar {
@@ -11759,7 +11764,7 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
   padding: 0.8125rem 0.5rem;
   transition: width 0.3s ease-in-out;
   white-space: nowrap;
-  padding: 1.5em 0;
+  padding: 1.15em 0;
 }
 
 .brand-link:hover {
@@ -11786,8 +11791,8 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
   line-height: .8;
   margin-left: .8rem;
   margin-right: .5rem;
-  margin-top: -3px;
-  max-height: 33px;
+  margin-top: -10px;
+  max-height: 50px;
   width: auto;
 }
 
