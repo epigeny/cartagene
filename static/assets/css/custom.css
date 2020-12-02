@@ -43,3 +43,8 @@ footer {
 	color: #1b222f;
 	text-transform: uppercase;
 }
+
+.datepicker button {
+	margin: 0;
+	padding: 0;
+}
