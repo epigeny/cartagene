@@ -11569,18 +11569,17 @@ body.sidebar-collapse:not(.sidebar-mini-md):not(.sidebar-mini) .main-header::bef
   line-height: 1.5rem;
 }
 
-.content-header:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("https://cartagene.qc.ca/themes/cartagene_bootstrap/images/header-pattern.png");
-  z-index: 0;
-  height: 100px;
-}
-
+/*.content-header:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://cartagene.qc.ca/themes/cartagene_bootstrap/images/header-pattern.png");
+    z-index: 0;
+    height: 100px;
+}*/
 .hold-transition .content-wrapper,
 .hold-transition .main-header,
 .hold-transition .main-sidebar,
