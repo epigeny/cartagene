@@ -20,8 +20,11 @@ theme:
 	cp -r ../AdminLTE/plugins/bootstrap static/assets/theme/plugins/
 	cp -r ../AdminLTE/plugins/chart.js/ static/assets/theme/plugins/
 	cp -r ../AdminLTE/plugins/datatables static/assets/theme/plugins/
+	cp -r ../AdminLTE/plugins/datatables-select static/assets/theme/plugins/
 	cp -r ../AdminLTE/plugins/datatables-bs4/ static/assets/theme/plugins/
 	cp -r ../AdminLTE/plugins/fontawesome-free/ static/assets/theme/plugins/
 	cp -r ../AdminLTE/plugins/jquery static/assets/theme/plugins/
 	cp -r ../AdminLTE/plugins/moment static/assets/theme/plugins/
+	cp -r ../AdminLTE/plugins/select2 static/assets/theme/plugins/
+	cp -r ../AdminLTE/plugins/select2-bootstrap4-theme static/assets/theme/plugins/
 	cp -r ../AdminLTE/plugins/toastr static/assets/theme/plugins/
