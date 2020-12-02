@@ -14,6 +14,9 @@ install-agate:
 	sudo cp -r static/* ${agate_home}/conf/static
 	sudo cp -r agate_home/conf/* ${agate_home}/conf
 
+build-theme: 
+	cd ../AdminLTE && npm run production
+
 theme:
 	rm -rf static/assets/theme
 	mkdir -p static/assets/theme/plugins
