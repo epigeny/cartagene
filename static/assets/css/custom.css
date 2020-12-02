@@ -17,26 +17,10 @@ footer {
 	font-size: 14px;
 }
 
-.brand-link {
-	font-size: 1.15rem;
-}
-
-.brand-image {
-	height: 50px !important;
-	max-height: 50px !important;
-}
-
-.brand-link .brand-image {
-	margin-top: -15px;
-}
-
-.layout-top-nav .main-header {
-	font-size: 1rem;
-}
-
 .main-header a {
 	font-size: 13px;
 }
+
 
 #homeMenu a, #appMenu a {
 	font-weight: bold;
