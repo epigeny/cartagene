@@ -4,7 +4,6 @@ services:
                 #build: ../docker-mica
                 image: obiba/mica:snapshot
                 ports:
-                        - "8835:8445"
                         - "8872:8082"
                 links:
                         - mongo
@@ -20,14 +19,10 @@ services:
                         - /tmp/test-mica:/srv
         mongo:
                 image: mongo:4.2
-                volumes:
-                        - /tmp/test-mongo_db:/data/db
-                        - /tmp/test-mongo_configdb:/data/configdb
         agate:
                 #build: ../docker-agate
-                image: obiba/agate:snapshot
+                image: obiba/agate:latest
                 ports:
-                        - "8834:8444"
                         - "8871:8081"
                 links:
                         - mongo
